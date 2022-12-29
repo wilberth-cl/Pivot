@@ -1,0 +1,6 @@
+@extends('admin.admin')
+@section('tilulo','index | size')
+@section('seccion','tamaño index')
+@section('contenido')
+    
+@endsection
