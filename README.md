@@ -30,7 +30,7 @@ $table->foreign('ingredient_id')->references('id')->on('ingredients')
             ->onDelete('cascade')
             ->onUpdate('cascade');
 ````
-* _Extra Fields._
+* _Extra Fields in 'specialty_ingredient'_
 ~~~
 $table->integer('cantidad');
 $table->string('thing');
