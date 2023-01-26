@@ -1,4 +1,5 @@
 # Laravel Pivot Table.
+# Add Extra Fields to Pivot Table
 
 > table 'size' 
 ````
