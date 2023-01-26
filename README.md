@@ -1,5 +1,8 @@
-# Laravel Pivot Table.
-# Add Extra Fields to Pivot Table.
+# Simple Example
+# Add Extra Fields to Laravel Pivot Table.
+
+### Php version[^1]:
+> [PHP ^8.0.2](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/)
 
 ### These fields do not replace the id() & timestamps() fields, but are part of them.
 > table 'size' (model & migration)
@@ -36,6 +39,7 @@ $table->foreign('ingredient_id')->references('id')->on('ingredients')
 $table->integer('cantidad');
 $table->string('thing');
 ~~~
+### 
 
 ### The project contains two seeders to start with.
 > IngredientSeeder & SizeSeeder
@@ -47,3 +51,5 @@ php artisan migrate --seed
 ````
 php artisan migrate:fresh --seed
 ````
+
+[^1]: The version of php is extremely important.
