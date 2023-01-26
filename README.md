@@ -1,6 +1,12 @@
 # Simple Example
 # Add Extra Fields to Laravel Pivot Table.
 
+### Make sure you have the laravel environment set up.
++ [Laravel](https://laravel.com/)
++ [Instalar Git](https://git-scm.com/download/win)
++ [Intalar Node.js](https://nodejs.org/en/)
++ [Instalar Composer](https://getcomposer.org/doc/00-intro.md#installation-windows)
+
 ### Php version[^1]:
 > [PHP ^8.0.2](https://sourceforge.net/projects/xampp/files/XAMPP%20Windows/)
 
