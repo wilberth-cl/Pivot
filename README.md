@@ -1,7 +1,7 @@
 # Laravel Pivot Table.
 # Add Extra Fields to Pivot Table.
 
-### 
+### These fields do not replace the id() & timestamps() fields, but are part of them.
 > table 'size' (model & migration)
 ````
 $table->string('nombre',60)->unique();
