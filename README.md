@@ -24,6 +24,7 @@ $table->decimal('precio',10,3)->require();
 $table->unsignedBigInteger('specialty_id');
             $table->unsignedBigInteger('ingredient_id');
 ````
+Extra Fields
 ````
 $table->integer('cantidad');
 $table->string('thing');
