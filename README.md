@@ -56,7 +56,7 @@ $table->integer('cantidad');
 $table->string('thing');
 ~~~
 
-## The project contains two seeders to start with.
+## The project contains two seeders to start with[^3].
 > IngredientSeeder & SizeSeeder
 * the first time:
 ~~~
@@ -67,11 +67,12 @@ php artisan migrate --seed
 php artisan migrate:fresh --seed
 ~~~
 
-## Test it[^3].
+## Test it[^4].
 ~~~
 php artisan serve
 ~~~
 
 [^1]: The version of php is extremely important.
 [^2]: Using npm update or composer update would cause some problems.
-[^3]: The **npm run dev** on **npm run build** commands are not required, but you could **run npm run** build for more convenience.
+[^3]: Create a database on your local server and configure it in your .env file.
+[^4]: The *npm run dev on *npm run build commands are not required, but you could run *npm run build for more convenience.
