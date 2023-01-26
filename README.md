@@ -1,2 +1,8 @@
-# Pivot Table Laravel
-Attach tests to several Columns in a Pivot Table
+# Laravel Pivot Table.
+# 
+
+> table size 
+´´´´
+$table->string('nombre',60)->unique();
+$table->string('descripcion',90)->nullable();
+´´´´
