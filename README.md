@@ -1,2 +1,2 @@
 # Pivot Table Laravel
-Pruebas de Attach a varias Columnas en un Pivot Table
+Attach tests to several Columns in a Pivot Table
