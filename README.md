@@ -23,10 +23,12 @@ $table->decimal('precio',10,3)->require();
 ````
 $table->unsignedBigInteger('specialty_id');
             $table->unsignedBigInteger('ingredient_id');
-            
+````
+````
 $table->integer('cantidad');
 $table->string('thing');
-
+````
+````
 $table->foreign('specialty_id')->references('id')->on('specialties')
             ->onDelete('cascade')
             ->onUpdate('cascade');
