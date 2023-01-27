@@ -1,6 +1,6 @@
 @extends('admin.admin')
 @section('tilulo','create | ingredient')
-@section('seccion','Ingrediente Create')
+@section('seccion','Ingredient Create')
 @section('contenido')
     <form action="{{ route('admin_ingredients_c.store') }}" method="POST">
         @csrf

@@ -11,15 +11,21 @@
 <body>
     <hr>
     | <a href="{{ route('admin') }}">Home</a>
-    | <a href="{{ route('admin_sizes_c.index') }}">Tamaños</a>
-    | <a href="{{ route('admin_ingredients_c.index') }}">Ingredientes</a>
-    | <a href="{{ route('admin_specialties_c.index') }}">Especialidades</a>
+    | <a href="{{ route('admin_sizes_c.index') }}">Sizes</a>
+    | <a href="{{ route('admin_ingredients_c.index') }}">Ingredients</a>
+    | <a href="{{ route('admin_specialties_c.index') }}">Specialties</a>
     <hr>
     <ul>
         @foreach ($errors->all() as $error)
         <li>{{$error}}</li>
         @endforeach
     </ul>
+    <hr>
+    @isset($counts)
+        Sizes: {{$sizes}} <br>
+        Ingredients: {{$ingredients}} <br>
+        Specialties: {{$specialties}}
+    @endisset
     <hr>
     @yield('seccion')
     <hr>

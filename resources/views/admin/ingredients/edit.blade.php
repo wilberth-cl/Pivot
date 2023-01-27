@@ -1,6 +1,6 @@
 @extends('admin.admin')
 @section('tilulo','edit | ingredient')
-@section('seccion','Ingrediente Edit')
+@section('seccion','Ingredient Edit')
 @section('contenido')
     <form action="{{ route('admin_ingredients_c.update', $ingredient->id) }}" method="POST">
         @method('PUT')

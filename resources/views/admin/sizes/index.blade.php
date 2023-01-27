@@ -1,8 +1,8 @@
 @extends('admin.admin')
 @section('tilulo','index | size')
-@section('seccion','Tamaño Index')
+@section('seccion','Size Index')
 @section('contenido')
-    <a href="{{ route('admin_sizes_c.create') }}"> Crear Ingrediente</a>
+    <a href="{{ route('admin_sizes_c.create') }}"> New Size</a>
     <hr>
 
    

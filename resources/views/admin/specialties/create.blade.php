@@ -1,11 +1,11 @@
 @extends('admin.admin')
 @section('tilulo','create | specialty')
-@section('seccion','Especialidad Create')
+@section('seccion','Specialty Create')
 @section('contenido')
     <form action="{{ route('admin_specialties_c.store') }}" method="POST">
         @csrf
 
-        <label for="size">Tamaño</label>
+        <label for="size">Tamaño:</label>
         <select name="size">
             @foreach ($sizes as $size)
                 <option value="{{ $size->id }}">{{ $size->nombre }}</option>
@@ -22,7 +22,7 @@
         <input type="number" name="precio" id="precio">
         <br><br>
 
-        <label for="ingredients">Ingredientes:</label><br>
+        <label for="ingredients">Ingredients:</label><br>
         <table>
             @foreach($ingredients as $ingredient)
                 <tr>

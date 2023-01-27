@@ -3,6 +3,9 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Size;
+use App\Models\Ingredient;
+use App\Models\Specialty;
 
 class HomeAdmincontroller extends Controller
 {
@@ -13,7 +16,11 @@ class HomeAdmincontroller extends Controller
      */
     public function index()
     {
-        return view('admin.admin');
+        $sizes = Size::count();
+        $ingredients = Ingredient::count();
+        $specialties = Specialty::count();
+        $counts = true;
+        return view('admin.admin',compact('sizes','ingredients','specialties','counts'));
     }
 
     /**

@@ -1,6 +1,6 @@
 @extends('admin.admin')
 @section('tilulo','show | size')
-@section('seccion','Tamaño Show')
+@section('seccion','Size Show')
 @section('contenido')
     
     <label for="id">ID:</label>

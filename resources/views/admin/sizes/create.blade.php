@@ -1,6 +1,6 @@
 @extends('admin.admin')
 @section('tilulo','create | size')
-@section('seccion','Tamaño Create')
+@section('seccion','Size Create')
 @section('contenido')
     <form action="{{ route('admin_sizes_c.store') }}" method="POST">
         @csrf

@@ -1,6 +1,6 @@
 @extends('admin.admin')
 @section('tilulo','edit | size')
-@section('seccion','tamaño edit')
+@section('seccion','Size edit')
 @section('contenido')
     <form action="{{ route('admin_sizes_c.update', $size->id) }}" method="POST">
         @method('PUT')

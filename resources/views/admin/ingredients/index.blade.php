@@ -1,8 +1,8 @@
 @extends('admin.admin')
 @section('tilulo','index | ingredient')
-@section('seccion','Ingrediente Index')
+@section('seccion','Ingredient Index')
 @section('contenido')
-    <a href="{{ route('admin_ingredients_c.create') }}"> Crear Ingrediente</a>
+    <a href="{{ route('admin_ingredients_c.create') }}"> New Ingredient</a>
     <hr>
 
    

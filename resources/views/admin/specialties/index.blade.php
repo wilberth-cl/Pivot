@@ -10,7 +10,7 @@
     </style>
 @endsection
 @section('contenido')
-    <a href="{{ route('admin_specialties_c.create') }}"> Crear Especialidad</a>
+    <a href="{{ route('admin_specialties_c.create') }}">New Specialty</a>
     <hr>
     <table>
         <thead>
