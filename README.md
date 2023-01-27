@@ -1,6 +1,10 @@
 ## Simple Example
 ## Add Extra Fields to Laravel Pivot Table.
 
+<p align="center">
+<img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/wilberth-cl/pivot">
+</p>
+
 ## Make sure you have the laravel environment set up.
 
 + [Laravel](https://github.com/laravel/laravel)
