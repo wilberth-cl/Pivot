@@ -76,6 +76,11 @@ php artisan migrate:fresh --seed
 php artisan serve
 ~~~
 
+## Entry route. 
+~~~
+http://127.0.0.1:8000/admin
+~~~
+
 [^1]: The version of php is extremely important.
 [^2]: Using npm update or composer update would cause some problems.
 [^3]: Create a database on your local server and configure it in your .env file.
